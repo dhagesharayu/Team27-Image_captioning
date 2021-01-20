@@ -11,7 +11,6 @@ from keras.preprocessing.text import Tokenizer
 from keras.layers import concatenate, BatchNormalization, Input
 from keras.layers.merge import add 
 from keras.utils import to_categorical, plot_model 
-from keras.applications.inception_v3 import InceptionV3, preprocess_input 
 import io
 import boto3
 from smart_open import smart_open
