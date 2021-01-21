@@ -29,8 +29,9 @@ The output of image model acts as input to language model. To understand the cap
   
 LSTM picks part of image and maps to the appropriate word in the caption. An embedding layer is created to get a vector representation for each word in the caption. Then the output vector is given as input to LSTM for the model to learn the neighbouring words for each word. Then the LSTM output is converted to fixed dimension using dense layer. Now, the outputs from both Language Model and Image model are combined, and input the vector to LSTM. LSTM learns the different captions for that image in training phase. The LSTM output is converted to the size of vocabulary size using the dense layer and activate the model using activation method. In testing phase, LSTM predict the captions for the image. LSTM predicts next word for the given image with the partial caption available at that stage.  
   
-## Network/Model:  
-![WhatsApp Image 2021-01-19 at 7 57 38 PM (1)](https://user-images.githubusercontent.com/63635084/105143128-70d52f80-5b21-11eb-9537-9e0806bed19f.jpeg)
+## Network/Model:    
+![1](https://user-images.githubusercontent.com/63635084/105346093-1b754d00-5c0b-11eb-92df-a0efcdc415b1.JPG)  
+![cnn](https://user-images.githubusercontent.com/63635084/105346106-203a0100-5c0b-11eb-8d7d-3a1ea1679817.JPG)   
   
 ## Code:
 [Click here for Code](url)  
